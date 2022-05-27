@@ -1214,15 +1214,13 @@ body {
 #projects {
 	display: flex;
 	justify-content: space-between;
-	position: relative;
-	/* margin-left: 10vw; */
 }
 
 .my-p {
 	background-color: white;
 	margin: 10px;
 	border-radius: 10px;
-	max-width: 300px;
+	width: 300px;
 	max-height: 210px;
 	padding: 10px;
 	overflow-y: scroll;
