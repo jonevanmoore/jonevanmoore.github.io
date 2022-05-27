@@ -10,18 +10,24 @@ window.addEventListener('DOMContentLoaded', () => {
     aboutMeLink.addEventListener('click', e => {
         if (aboutMe.style.display === 'none') {
             aboutMe.style.display = 'block'
+            aboutMeLink.style.color = 'rgb(107, 107, 255)'
             myProjects.style.display = 'none'
+            projectLink.style.color = 'black'
         } else {
             aboutMe.style.display = 'none'
+            aboutMeLink.style.color = 'black'
         }
     })
 
     projectLink.addEventListener('click', e => {
         if (myProjects.style.display === 'none') {
             myProjects.style.display = 'block'
+            projectLink.style.color = 'rgb(107, 107, 255)'
             aboutMe.style.display = 'none'
+            aboutMeLink.style.color = 'black'
         } else {
             myProjects.style.display = 'none'
+            projectLink.style.color = 'black'
         }
     })
 })
