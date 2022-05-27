@@ -327,6 +327,7 @@ a:hover {
 
 body {
 	color: black;
+	font-family: 'Raleway';
 }
 
 @-moz-keyframes bg {
@@ -785,7 +786,7 @@ body {
 }
 
 #header nav a:hover:before {
-	background-color: rgba(0, 0, 0, 0.326);
+	background-color: rgba(56, 0, 130, 0.326);
 	color: #fff;
 	border-color: #fff;
 }
@@ -1204,4 +1205,42 @@ body {
 	-webkit-animation: wrapper 1s forwards;
 	-ms-animation: wrapper 1s forwards;
 	animation: wrapper 1s forwards;
+}
+
+#project {
+	text-align: center;
+}
+
+#projects {
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	/* margin-left: 10vw; */
+}
+
+.my-p {
+	background-color: white;
+	margin: 10px;
+	border-radius: 10px;
+	max-width: 300px;
+	max-height: 180px;
+	padding: 10px;
+	overflow-y: scroll;
+	transition: .5s;
+}
+
+.my-p:hover {
+	max-width: 350px;
+}
+
+.my-p>* {
+	text-align: start;
+}
+
+#label-site {
+	font-weight: bold;
+}
+
+#live-github {
+	border-bottom: 1px solid black;
 }
