@@ -307,10 +307,10 @@ a:hover {
 /* BG */
 
 #bg {
-	-moz-animation: bg 60s linear infinite;
+	/* -moz-animation: bg 60s linear infinite;
 	-webkit-animation: bg 60s linear infinite;
-	-ms-animation: bg 60s linear infinite;
-	animation: bg 60s linear infinite;
+	-ms-animation: bg 60s linear infinite; */
+	/* animation: bg 60s linear infinite; */
 	-moz-backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 	-ms-backface-visibility: hidden;
@@ -321,13 +321,17 @@ a:hover {
 	transform: translate3d(0, 0, 0);
 	/* Set your background with this */
 
-	background: #348cb2 url("images/bg.jpg") bottom left;
+	background: #e1e1e1 url("images/bg.jpg");
 	background-repeat: repeat-x;
-	height: 100%;
 	left: 0;
 	opacity: 1;
-	position: fixed;
-	top: 0;
+	height: 100vh;
+}
+
+body {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 @-moz-keyframes bg {
