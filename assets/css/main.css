@@ -1206,12 +1206,26 @@ body {
 	border: 1px solid white;
 }
 
+
+
 #link-wrapper {
 	position: absolute;
 	-moz-animation: wrapper 1s forwards;
 	-webkit-animation: wrapper 1s forwards;
 	-ms-animation: wrapper 1s forwards;
 	animation: wrapper 1s forwards;
+}
+
+#techs {
+	position: absolute;
+	left: -5vw;
+	top: 0;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px;
 }
 
 #project {
@@ -1249,4 +1263,21 @@ body {
 
 #live-github {
 	border-bottom: 1px solid black;
+}
+
+#site-pics {
+	width: 500px;
+	/* opacity: 200px; */
+	background-color: black;
+	z-index: 9;
+}
+
+#snack-pics {
+	position: absolute;
+	top: -30px;
+	visibility: hidden;
+}
+
+#snack-overflow:hover div img {
+	visibility: visible;
 }
