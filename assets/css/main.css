@@ -1266,18 +1266,56 @@ body {
 }
 
 #site-pics {
-	width: 500px;
+	width: 400px;
 	/* opacity: 200px; */
-	background-color: black;
 	z-index: 9;
+	border-radius: 10px;
+	border: 1px solid black;
 }
 
 #snack-pics {
 	position: absolute;
-	top: -30px;
+	top: -30vh;
 	visibility: hidden;
 }
 
 #snack-overflow:hover div img {
 	visibility: visible;
+	transition: .3s;
+}
+
+#quilled-pics {
+	position: absolute;
+	top: -30vh;
+	left: 0vw;
+	visibility: hidden;
+}
+
+#quilled:hover div img {
+	visibility: visible;
+	transition: .3s;
+}
+
+#jello-pics {
+	position: absolute;
+	top: -30vh;
+	left: 3vw;
+	visibility: hidden;
+}
+
+#jello:hover div img {
+	visibility: visible;
+	transition: .3s;
+}
+
+#photonest-pics {
+	position: absolute;
+	top: -30vh;
+	left: 3vw;
+	visibility: hidden;
+}
+
+#photonest:hover div img {
+	visibility: visible;
+	transition: .3s;
 }
