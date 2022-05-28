@@ -1276,6 +1276,7 @@ body {
 #snack-pics {
 	position: absolute;
 	top: -30vh;
+	left: 2.5vw;
 	visibility: hidden;
 }
 
@@ -1287,7 +1288,7 @@ body {
 #quilled-pics {
 	position: absolute;
 	top: -30vh;
-	left: 0vw;
+	left: 2.5vw;
 	visibility: hidden;
 }
 
@@ -1299,7 +1300,7 @@ body {
 #jello-pics {
 	position: absolute;
 	top: -30vh;
-	left: 3vw;
+	left: 2.5vw;
 	visibility: hidden;
 }
 
@@ -1311,7 +1312,7 @@ body {
 #photonest-pics {
 	position: absolute;
 	top: -30vh;
-	left: 3vw;
+	left: 2.5vw;
 	visibility: hidden;
 }
 
