@@ -1267,6 +1267,14 @@ body {
 	border-bottom: 1px solid black;
 }
 
+#leave-site {
+	transition: .05s;
+}
+
+#leave-site:hover {
+	font-weight: 400;
+}
+
 #site-pics {
 	width: 400px;
 	/* opacity: 200px; */
