@@ -1252,6 +1252,7 @@ body {
 
 .my-p:hover {
 	max-height: 230px;
+	border-color: black;
 }
 
 .my-p>* {
