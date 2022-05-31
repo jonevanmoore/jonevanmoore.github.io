@@ -1273,7 +1273,7 @@ body {
 }
 
 #site-pics {
-	width: 400px;
+	width: 300px;
 	/* opacity: 200px; */
 	z-index: 9;
 	border-radius: 10px;
@@ -1282,9 +1282,14 @@ body {
 
 #snack-pics {
 	position: absolute;
-	top: -30vh;
-	left: 2.5vw;
+	top: -65vh;
+	left: .8vw;
 	visibility: hidden;
+}
+
+#snack-pics>* {
+	display: flex;
+	flex-direction: column;
 }
 
 #snack-overflow:hover div img {
@@ -1294,9 +1299,14 @@ body {
 
 #quilled-pics {
 	position: absolute;
-	top: -30vh;
-	left: 2.5vw;
+	top: -65vh;
+	left: 11vw;
 	visibility: hidden;
+}
+
+#quilled-pics>* {
+	display: flex;
+	flex-direction: column;
 }
 
 #quilled:hover div img {
@@ -1306,9 +1316,14 @@ body {
 
 #jello-pics {
 	position: absolute;
-	top: -30vh;
-	left: 2.5vw;
+	top: -65vh;
+	right: 10vw;
 	visibility: hidden;
+}
+
+#jello-pics>* {
+	display: flex;
+	flex-direction: column;
 }
 
 #jello:hover div img {
@@ -1318,9 +1333,14 @@ body {
 
 #photonest-pics {
 	position: absolute;
-	top: -30vh;
-	left: 2.5vw;
+	top: -65vh;
+	right: .8vw;
 	visibility: hidden;
+}
+
+#photonest-pics>* {
+	display: flex;
+	flex-direction: column;
 }
 
 #photonest:hover div img {
