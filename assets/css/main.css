@@ -1283,7 +1283,7 @@ body {
 #snack-pics {
 	position: absolute;
 	top: -65vh;
-	right: .8vw;
+	right: 10vw;
 	visibility: hidden;
 }
 
