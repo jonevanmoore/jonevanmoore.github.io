@@ -1283,7 +1283,7 @@ body {
 #snack-pics {
 	position: absolute;
 	top: -65vh;
-	right: 10vw;
+	right: .8vw;
 	visibility: hidden;
 }
 
@@ -1300,7 +1300,7 @@ body {
 #quilled-pics {
 	position: absolute;
 	top: -65vh;
-	right: 11vw;
+	right: 10vw;
 	visibility: hidden;
 }
 
@@ -1317,7 +1317,7 @@ body {
 #jello-pics {
 	position: absolute;
 	top: -65vh;
-	left: 10vw;
+	left: 11vw;
 	visibility: hidden;
 }
 
