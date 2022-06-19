@@ -212,6 +212,14 @@ a:hover {
 	color: rgb(107, 107, 255);
 }
 
+img {
+	transition: .3s;
+}
+
+img:hover {
+	opacity: 100%;
+}
+
 /* Icon */
 
 .icon {
