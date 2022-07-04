@@ -1214,11 +1214,11 @@ body {
 
 
 #link-wrapper {
-	position: absolute;
 	-moz-animation: wrapper 1s forwards;
 	-webkit-animation: wrapper 1s forwards;
 	-ms-animation: wrapper 1s forwards;
 	animation: wrapper 1s forwards;
+	position: absolute;
 }
 
 #techs {
@@ -1236,11 +1236,13 @@ body {
 
 #project {
 	text-align: center;
+	/* padding-right: 50%; */
 }
 
 #projects {
 	display: flex;
 	justify-content: space-between;
+	overflow-x: scroll;
 }
 
 .my-p {
