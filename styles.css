@@ -14,6 +14,10 @@ body {
     z-index: 1;
 }
 
+.mobile {
+    display: none;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -432,4 +436,12 @@ nav {
 /*  */
 
 
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 800px) {
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
