@@ -437,8 +437,8 @@ nav {
 
 
 @media screen and (max-width: 800px) {
-    body {
-        margin: 0;
+    body>* {
+        /* padding: 0; */
     }
 
     .mobile {
@@ -490,6 +490,7 @@ nav {
 
     .my-face {
         width: 100vw;
+        margin-right: 0;
     }
 
     .intro-div {
