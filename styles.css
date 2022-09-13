@@ -437,6 +437,10 @@ nav {
 
 
 @media screen and (max-width: 800px) {
+    body {
+        margin: 0;
+    }
+
     .mobile {
         display: block;
         text-align: center;
@@ -446,18 +450,37 @@ nav {
         display: none;
     }
 
+    .pos-fix {
+        position: fixed;
+        width: 100vw;
+        z-index: 1;
+        top: -30px;
+    }
+
     .nav-mobile {
+        text-align: center;
         display: flex;
         flex-direction: column;
-        padding: -30px;
+        background-color: white;
     }
 
-    .nav-links {
+    .nav-name-mobile {
+        text-align: start;
+        position: relative;
+        bottom: 20px;
+        font-weight: bolder;
+    }
+
+    .nav-links-mobile {
         display: flex;
+        text-align: start;
     }
 
-    .nav-links>* {
-        margin-right: 0;
+    .nav-links-mobile>* {
+        position: relative;
+        bottom: 20px;
+        right: 35px;
+        margin-right: 35px;
     }
 
     .under-nav {
