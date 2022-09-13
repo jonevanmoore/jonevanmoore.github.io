@@ -476,4 +476,8 @@ nav {
     .small-intro {
         width: 100vw;
     }
+
+    .techs {
+        overflow: scroll;
+    }
 }
