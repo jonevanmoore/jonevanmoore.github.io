@@ -439,9 +439,41 @@ nav {
 @media screen and (max-width: 800px) {
     .mobile {
         display: block;
+        text-align: center;
     }
 
     .desktop {
         display: none;
+    }
+
+    .nav-mobile {
+        display: flex;
+        flex-direction: column;
+        padding: -30px;
+    }
+
+    .nav-links {
+        display: flex;
+    }
+
+    .nav-links>* {
+        margin-right: 0;
+    }
+
+    .under-nav {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .my-face {
+        width: 100vw;
+    }
+
+    .intro-div {
+        flex-direction: column;
+    }
+
+    .small-intro {
+        width: 100vw;
     }
 }
