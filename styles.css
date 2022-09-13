@@ -437,10 +437,6 @@ nav {
 
 
 @media screen and (max-width: 800px) {
-    body>* {
-        /* padding: 0; */
-    }
-
     .mobile {
         display: block;
         text-align: center;
@@ -457,6 +453,12 @@ nav {
         top: -30px;
     }
 
+    nav {
+        padding-left: 0;
+        padding-right: 0;
+        width: 50vw;
+    }
+
     .nav-mobile {
         text-align: center;
         display: flex;
@@ -466,21 +468,18 @@ nav {
 
     .nav-name-mobile {
         text-align: start;
-        position: relative;
-        bottom: 20px;
         font-weight: bolder;
     }
 
     .nav-links-mobile {
         display: flex;
-        text-align: start;
     }
 
     .nav-links-mobile>* {
-        position: relative;
+        /* position: relative;
         bottom: 20px;
         right: 35px;
-        margin-right: 35px;
+        margin-right: 35px; */
     }
 
     .under-nav {
