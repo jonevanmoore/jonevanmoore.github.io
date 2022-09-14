@@ -449,12 +449,24 @@ nav {
 
     .footer-fix {
         position: fixed;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 88%;
         z-index: 1;
         top: 96vh;
         display: flex;
         border-top: blue solid 1px;
+    }
+
+    .footer-icon {
+        color: blue;
+        font-weight: 300;
+        font-size: 25px;
+        text-decoration: none;
+        border-radius: 2px;
+        padding: 10px 20px 10px 20px;
+        transition: 250ms;
+        position: relative;
+        bottom: 5px;
     }
 
     .mobile {
