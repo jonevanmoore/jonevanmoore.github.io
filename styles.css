@@ -429,6 +429,7 @@ nav {
 .site-btns {
     position: relative;
     right: 50px;
+    z-index: -1;
 }
 
 .text-desc {
@@ -460,7 +461,10 @@ nav {
         border-top: blue solid 1px;
     }
 
-
+    .footer-fix {
+        position: fixed;
+        top: 90%
+    }
 
     .footer-icon {
         color: blue;
