@@ -3,6 +3,10 @@ body {
     animation: fadeIn 2s;
 }
 
+footer {
+    display: none;
+}
+
 .under-nav {
     margin-left: 100px;
     margin-right: 100px;
@@ -437,6 +441,22 @@ nav {
 
 
 @media screen and (max-width: 800px) {
+    footer {
+        display: block;
+        background-color: white;
+        padding: 20px;
+    }
+
+    .footer-fix {
+        position: fixed;
+        justify-content: space-around;
+        width: 88%;
+        z-index: 1;
+        top: 96vh;
+        display: flex;
+        border-top: blue solid 1px;
+    }
+
     .mobile {
         display: block;
         text-align: center;
@@ -456,14 +476,14 @@ nav {
     nav {
         padding-left: 0;
         padding-right: 0;
-        width: 50vw;
+        width: 100vw;
     }
 
     .nav-mobile {
         text-align: center;
         display: flex;
         flex-direction: column;
-        background-color: white;
+        background-color: rgb(255, 255, 255);
     }
 
     .nav-name-mobile {
@@ -473,6 +493,7 @@ nav {
 
     .nav-links-mobile {
         display: flex;
+        justify-content: space-around;
     }
 
     .nav-links-mobile>* {
