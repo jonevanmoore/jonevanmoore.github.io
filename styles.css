@@ -463,7 +463,7 @@ nav {
 
     .footer-fix {
         position: fixed;
-        top: 90%
+        top: 93%
     }
 
     .footer-icon {
@@ -508,7 +508,7 @@ nav {
     }
 
     .nav-name-mobile {
-        text-align: start;
+        text-align: center;
         font-weight: bolder;
     }
 
@@ -537,6 +537,10 @@ nav {
 
     .techs {
         overflow: scroll;
+    }
+
+    .project-div {
+        margin-bottom: 50px;
     }
 
     .site-div {
