@@ -451,18 +451,16 @@ nav {
         background-color: white;
         padding: 20px;
         width: 100vw;
-        z-index: 1;
-    }
-
-    .footer-fix {
-        position: fixed;
+        /* position: fixed;
+        bottom: 100vh; */
         justify-content: space-between;
-        width: 88%;
-        z-index: 1;
-        top: 96vh;
+        width: 100vw;
+        z-index: 9;
         display: flex;
         border-top: blue solid 1px;
     }
+
+
 
     .footer-icon {
         color: blue;
@@ -513,13 +511,6 @@ nav {
     .nav-links-mobile {
         display: flex;
         justify-content: space-around;
-    }
-
-    .nav-links-mobile>* {
-        /* position: relative;
-        bottom: 20px;
-        right: 35px;
-        margin-right: 35px; */
     }
 
     .under-nav {
