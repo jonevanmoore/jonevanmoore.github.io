@@ -498,6 +498,7 @@ nav {
         padding-left: 0;
         padding-right: 0;
         width: 100vw;
+        border-bottom: 1px solid blue;
     }
 
     .nav-mobile {
@@ -525,6 +526,11 @@ nav {
     .my-face {
         width: 100vw;
         margin: 0;
+    }
+
+    .mobile-social>* {
+        margin-right: 20px;
+        font-size: 20px;
     }
 
     .intro-div {
